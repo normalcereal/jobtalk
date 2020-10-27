@@ -10,6 +10,16 @@ Business Factory type stuff.
 #TOOLS TODOs:
 
 - installation script
+- snippets:
+ - check for zshrc in $HOME
+ -
+ - zshrc path update for tools dir
+ > #probs a zsh path var.. code below is likely overkill or needs to test the path given
+ > test ls $ZSHCONFIGPATH/.zshrc && ( cp $ZSHCONFIGPATH/.zshrc $ZSHCONFIGPATH/zshrc.ttbak[date] $ZSHCONFIGPATH/.zshrc echo '[export path]' >> $ZSHCONFIGPATH/.zshrc ) || ".zshrc not found in path $ZSHCONFIGPATH.\
+ > Please add following code to your .zshrc:\
+ > ...."
+
+> 
 
 
 - dataprep
